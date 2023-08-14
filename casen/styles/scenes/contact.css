@@ -1,0 +1,46 @@
+#contact {
+	padding: 100px 0;
+	background-color: var(--color-bg);
+}
+
+.contact-content {
+	max-width: 500px;
+	margin: 20px 0 40px;
+}
+
+.contact-form {
+	height: 60px;
+}
+
+.contact-input {
+	height: 100%;
+	width: 630px;
+	padding: 12px 20px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 36px;
+	color: #999;
+}
+
+.contact-btn {
+	height: 100%;
+	width: 200px;
+	background-color: var(--color-primary);
+	color: var(--color-light);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+	#contact {
+		padding: 50px 15px;	
+	}
+
+	.contact-input {
+		width: 227px;
+	}
+
+	.contact-btn {
+		width: 114px;
+	}
+}

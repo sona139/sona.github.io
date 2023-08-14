@@ -1,0 +1,57 @@
+#journey {
+	padding: 100px 135px 0 135px;
+	background-color: var(--color-bg);
+}
+
+.journey {
+	margin-bottom: 90px;
+}
+
+.journey-left {
+	width: 300px;
+}
+
+.journey-right {
+	width: 570px;
+}
+
+.journey-detail {
+	margin-top: 74px;
+	gap: 5px;
+}
+
+.journey-img {
+	width: 100%;
+	max-height: 472px;
+	overflow: hidden;
+}
+
+.journey-img > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+@media (max-width: 1200px) {
+	#journey {
+		padding: 50px 15px 50px;
+	}	
+
+	.journey {
+		margin-bottom: 40px;
+	}
+
+	.journey-detail {
+		margin-top: 30px;
+	}
+
+	.journey {
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.journey-right {
+		width: 100%;
+	}
+}

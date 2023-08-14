@@ -1,0 +1,21 @@
+.rate-group {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+}
+
+.rate {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-position: center;
+}
+
+.full-rate {
+	background-image: url('../../assets/img/full-rate-star.svg');
+}
+
+.half-rate {
+	background-image: url('../../assets/img/half-rate-star.svg');
+}

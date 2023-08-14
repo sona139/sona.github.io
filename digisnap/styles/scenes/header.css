@@ -1,0 +1,33 @@
+#header {
+	height: 680px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('../../assets/img/header.png'), lightgray 0px -41.29px / 100% 100% no-repeat;
+	background-size: cover;
+	padding: 0 63px;
+}
+
+.header {
+	color: var(--color-light);
+	font-size: 60px;
+	line-height: 61px;
+	font-weight: 600;
+	margin: 315px 0 219px;
+}
+
+.header-arrows {
+	height: 45px;
+	width: 45px;
+	background-image: url('../../assets/img/header-arrow.svg');
+	background-size: cover;
+}
+
+@media (max-width:1200px) {
+	#header {
+		height: 350px;
+	}
+	
+	.header {
+		margin: 134px 0 59px;
+		font-size: 40px;
+		line-height: 41px;
+	}
+}

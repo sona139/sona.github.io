@@ -1,0 +1,37 @@
+#header {
+	padding: 185px 394px 40px;
+	background-image: url('../../assets/image/header.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.header-title {
+	color: var(--color-light);
+	max-width: 652px;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100px;
+	margin-top: 39.65px;
+	margin-bottom: 30px;
+}
+
+.header-arrow {
+	margin-top: 135px;
+}
+
+@media (max-width:1200px) {
+	#header {
+		padding: 110px 24px 40px 25px;
+	}
+
+	.header-title {
+		font-size: 40px;
+		max-width: 326px;
+		line-height: normal;
+	}
+	
+	.header-arrow {
+		margin-top: 39px;
+	}
+}

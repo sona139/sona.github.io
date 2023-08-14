@@ -1,0 +1,33 @@
+@import url('../utils/colors.css');
+
+.btn-primary, 
+.btn-secondary {
+	width: 207px;
+	height: 61px;
+	font-family: 'Pangolin';
+	font-size: 14px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background: var(--color-primary);
+	color: var(--color-light);
+}
+
+.btn-primary:hover {
+	background-color: #9C2818;
+}
+
+.btn-secondary {
+	background-color: var(--color-secondary);
+	color: var(--color-text);
+}
+
+.btn-secondary:hover {
+	background-color: #DEA73A;
+}

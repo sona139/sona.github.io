@@ -1,0 +1,27 @@
+.variant {
+	height: 50px;
+	width: 270px;
+	padding: 18px 12px 17px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 12px 0 10px;
+	border: 1px solid var(--color-border);
+	background: var(--color-light);
+	cursor: pointer;
+}
+
+.variant-text {
+	color: var(--color-primary);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 15px;
+}
+
+.variant-arrow-bottom {
+	width: 13px;
+	height: 6px;
+	background-image: url('../../assets/img/arrow-bottom.svg');
+	background-position: center;
+	background-size: cover;
+}

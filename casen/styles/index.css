@@ -1,0 +1,47 @@
+/* Import css */
+@import url('./utils/index.css');
+@import url('./utils/font.css');
+@import url('./utils/colors.css');
+
+@import url('./component/button.css');
+@import url('./component/variant.css');
+@import url('./component/group.css');
+
+@import url('./scenes/header.css');
+@import url('./scenes/journey.css');
+@import url('./scenes/product.css');
+@import url('./scenes/declare.css');
+@import url('./scenes/contact.css');
+@import url('./scenes/footer.css');
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Archivo';
+}
+
+button, input {
+	background-color: var(--color-light);
+	border: none;
+	outline: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+ul li {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}

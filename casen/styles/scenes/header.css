@@ -1,0 +1,48 @@
+#header {
+	padding: 493px 135px 0;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('../../assets/img/header.png'), lightgray -153.443px -14px / 172.352% 104.857% no-repeat;
+	background-size: cover;
+}
+
+.header-content {
+	color: var(--color-light);
+	font-size: 14px;
+	font-weight: 400;
+	margin: 15px 0 30px;
+	line-height: 15px;
+}
+
+.header-btn {
+	width: 256px;
+	height: 48px;
+}
+
+#header::after {
+	content: 'FREE 3 DAYS SHIPPING FOR 25$* BILL';
+	display: block;
+	font-size: 16px;
+	line-height: 17px;
+	position: relative;
+	padding: 27px 0 26px;
+	text-align: center;
+	background-color: var(--color-primary);
+	color: var(--color-light);
+	margin: 70px -135px 0;
+}
+
+@media (max-width: 1200px) {
+	#header {
+		padding: 180px 27px 0 15px;
+	}
+
+	.header-content {
+		margin: 10px 0 20px;
+		line-height: 24px;		
+	}
+
+	#header::after {
+		margin: 0 -27px 0 -15px;
+		margin-top: 20px;
+		padding: 24px 0 23px;
+	}
+}

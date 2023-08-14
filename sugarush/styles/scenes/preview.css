@@ -1,0 +1,86 @@
+#preview {
+	background-color: var(--color-bg);
+	padding: 80px 135px;
+	gap: 30px;
+}
+
+.preview-item, 
+.preview-item {
+	width: 570px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding: 30px;
+	padding-top: 282px;
+}
+
+.preview-item-first {
+	background-image: url('../../assets/img/halloween-package.png');
+}
+
+.preview-item-second {
+	background-image: url('../../assets/img/special-deal.jpg');
+}
+
+.preview-title {
+	color: var(--color-text);
+	font-family: 'Pangolin';
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 13px;
+}
+
+.preview-item-second > .preview-title,
+.preview-item-second > .preview-btn {
+	color: var(--color-secondary);
+}
+
+.preview-btn {
+	font-family: 'Pangolin';
+	font-size: 24px;
+	color: var(--color-text);
+	font-weight: 400;
+	text-decoration-line: underline;
+	background-color: transparent;
+	margin-top: 15px;
+}
+
+@media (max-width: 1200px) {
+	#preview {
+		padding: 30px 15px;
+	}
+
+	.preview-item {
+		width: 100%;
+		padding: 20px;
+		padding-top: 166px;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: end;
+	}
+
+	.preview-title {
+		font-size: 24px;
+		margin-bottom: 10px;
+		height: 30px;
+	} 
+
+	.preview-item-first {
+		padding-top: 166px;
+	}
+
+	.preview-item-first > .preview-content {
+		max-width: 230px;
+	}
+
+	.preview-item-second {
+		padding-top: 148px;
+	}
+
+	.preview-btn {
+		font-size: 20px;
+		margin-top: 5px;
+		height: 25px;
+	}
+}

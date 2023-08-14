@@ -1,0 +1,52 @@
+/* Import css */
+@import url('./utils/index.css');
+@import url('./utils/font.css');
+@import url('./utils/colors.css');
+
+@import url('./component/button.css');
+@import url('./component/rating.css');
+@import url('./component/line.css');
+
+@import url('./scenes/accessory.css');
+@import url('./scenes/award.css');
+@import url('./scenes/feature.css');
+@import url('./scenes/header.css');
+@import url('./scenes/overview.css');
+@import url('./scenes/preview.css');
+@import url('./scenes/product.css');
+@import url('./scenes/size.css');
+@import url('./scenes/spect.css');
+@import url('./scenes/testimonial.css');
+
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Epilogue';
+}
+
+button, input {
+	background-color: var(--color-light);
+	border: none;
+	outline: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+ul li {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}

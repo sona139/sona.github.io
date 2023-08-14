@@ -1,0 +1,106 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.title-light {
+	color: var(--color-light);
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.title {
+	color: var(--color-primary);
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.detail {
+	color: var(--color-primary);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.line-icon {
+	width: 27px;
+	height: 2px;
+	background-color: var(--color-primary);
+}
+
+.content {
+	color: var(--color-text);
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+}
+
+.arrow-right {
+	width: 15px;
+	height: 15px;
+	background-image: url('../../assets/img/arrow-right.svg');
+	background-position: center;
+	background-size: cover;
+}
+
+@media (max-width: 1200px) {
+	.title-light {
+		font-size: 22px;
+	}
+
+	.title {
+		font-size: 30px;
+		line-height: 33px;
+	}
+}

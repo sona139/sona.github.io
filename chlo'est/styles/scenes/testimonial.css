@@ -1,0 +1,100 @@
+#testimonial {
+	background-color: var(--color-background-tertiary);
+	padding: 90px 0;
+	position: relative;
+}
+
+.testimonial-prev-btn, .testimonial-next-btn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 16px;
+	height: 30px;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+
+.testimonial-prev-btn {
+	left: 135px;
+	background-image: url('../../assets/icon/chev-left.svg');
+}
+
+.testimonial-next-btn {
+	right: 135px;
+	background-image: url('../../assets/icon/chev-right.svg');
+}
+
+.testimonial-title {
+	color: var(--color-background-primary, #FFE0B4);
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 80px;
+	margin: 25px 0 60px;
+}
+
+.testimonial-paragraph {
+	color: #928475;
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 45px;
+	max-width: 598px;
+	margin-bottom: 74px;
+}
+
+.testimonial-avatar-bg {
+	width: 178px;
+	height: 112px;
+	background-image: url('../../assets/image/ava-bgr.png');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	bottom: 123px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.testimonial-avatar-img {
+	width: 111px;
+	height: 111px;
+	border-radius: 50%;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.testimonial-avatar-img > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+@media (max-width: 1200px) {
+	#testimonial {
+		padding: 40px 0;
+	}
+
+	.testimonial-prev-btn, .testimonial-next-btn {
+		display: none;
+	}
+
+	.testimonial-title {
+		margin-bottom: 40px;
+		font-size: 36px;
+		line-height: 55px;
+	}
+
+	.testimonial-paragraph {
+		font-size: 26px;
+		line-height: 36px;
+		margin: 0 15px 74px;
+	}
+
+	.testimonial-avatar-bg {
+		width: 178px;
+		height: 112px;
+		bottom: 73px;
+	}
+}

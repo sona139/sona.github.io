@@ -1,0 +1,28 @@
+@import url('../utils/colors.css');
+
+button {
+	height: 58px;
+	width: 236px;
+	font-size: 15px;
+	font-style: normal;
+	letter-spacing: 1.5px;
+	font-weight: 400;
+	font-family: 'Roboto';
+}
+
+.btn-primary {
+	color: var(--color-light);
+	background-color: var(--color-primary);
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+	color: var(--color-light);
+	background-color: #722811;
+	border: none;
+}
+
+.btn-secondary {
+	border: 1px solid #5B3909;
+	background: var(--color-light);
+	color: var(--color-primary);
+}

@@ -1,0 +1,39 @@
+.pagemarks {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.pagemarks:has(.pagemark-snow) {
+	height: 42px;
+}
+
+.pagemark, .pagemark-snow {
+	width: 42px;
+	height: 1.355px;
+	background-color: #C4AB8E;
+	position: relative;
+}
+
+.pagemark-snow {
+	transform: rotate(90deg);
+}
+
+.pagemark-snow::before {
+	content: '';
+	display: block;
+	width: 42px;
+	height: 1.35px;
+	background-color: #C4AB8E;
+	transform: rotate(45deg);
+}
+
+.pagemark-snow::after {
+	content: '';
+	display: block;
+	width: 42px;
+	height: 1.355px;
+	background-color: #C4AB8E;
+	transform: rotate(-45deg);
+}
+

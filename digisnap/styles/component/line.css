@@ -1,0 +1,15 @@
+.line-group {
+	display: flex;
+	gap: 5px;
+	flex-direction: row;
+}
+
+.line {
+	width: 23px;
+	height: 4px;
+	background-color: var(--color-line);
+}
+
+.line-active {
+	background-color: var(--color-primary);
+}

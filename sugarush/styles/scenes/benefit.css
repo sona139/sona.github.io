@@ -1,0 +1,44 @@
+#benefit {
+	padding: 50px 135px;
+	gap: 50px;
+	background-color: var(--color-bg);
+}
+
+.benefit-icon {
+	height: 80px;
+	width: 80px;
+	object-fit: cover;
+	object-position: center;
+	transform: rotate(-28.355deg);
+}
+
+.benefit-about {
+	margin-left: 20px;
+}
+
+.benefit-title {
+	color: var(--color-text);
+	font-size: 26px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.benefit-content {
+	max-width: 250px;
+}
+
+@media (max-width: 1200px) {
+	#benefit {
+		padding: 33px 15px 30px;
+		flex-wrap: wrap;
+		gap: 33px;
+	}
+
+	.benefit {
+		width: 100%;
+	}
+
+	.benefit-title {
+		height: 30px;
+	}
+}
