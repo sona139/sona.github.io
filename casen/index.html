@@ -370,14 +370,38 @@
 	</div>
 
 	<!-- Declare -->
-	<div id="declare" class="flex flex-col align-center">
+	<div id="declare" class="flex flex-col align-center p-relative">
 		<div class="declare-title title-light">WHAT PEOPLE SAY</div>
-		<div class="declare-content text-center">Not only about the design but the quality. Never Have I ever found such an awesome case</div>
-		<div class="declare-ava">
-			<img src="./assets/img/ava.png" alt="Avatar">
+		<div class="declare-group flex">
+			<div class="declare-item flex flex-col align-center" id="declare-1">
+				<div class="declare-content text-center">1Not only about the design but the quality. Never Have I ever found such an awesome case</div>
+				<div class="declare-ava">
+					<img src="./assets/img/ava1.png" alt="Avatar">
+				</div>
+				<div class="declare-name text-center">1Rhona Bowers</div>
+			</div>
+			<div class="declare-item flex flex-col align-center hide" id="declare-2">
+				<div class="declare-content text-center">2Not only about the design but the quality. Never Have I ever found such an awesome case</div>
+				<div class="declare-ava">
+					<img src="./assets/img/ava2.png" alt="Avatar">
+				</div>
+				<div class="declare-name text-center">2Rhona Bowers</div>
+			</div>
+			<div class="declare-item flex flex-col align-center hide" id="declare-3">
+				<div class="declare-content text-center">3Not only about the design but the quality. Never Have I ever found such an awesome case</div>
+				<div class="declare-ava">
+					<img src="./assets/img/ava3.png" alt="Avatar">
+				</div>
+				<div class="declare-name text-center">3Rhona Bowers</div>
+			</div>
 		</div>
-		<div class="declare-name text-center">Rhona Bowers</div>
-		<div class="declare-group group"></div>
+		<div class="declare-slide-page flex" style="gap: 10px;">
+			<div class="declara-slide-item group current-group"></div>
+			<div class="declara-slide-item group"></div>
+			<div class="declara-slide-item group"></div>
+		</div>
+		<div class="declare-prev-btn p-absolute hide"></div>
+		<div class="declare-next-btn p-absolute"></div>
 	</div>
 
 	<!-- Contact -->
@@ -421,5 +445,7 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="./scripts/declare.js"></script>
 </body>
 </html>

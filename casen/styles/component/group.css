@@ -1,6 +1,10 @@
 .group {
-	width: 71px;
+	width: 17px;
 	height: 17px;
 	background-image: url('../../assets/img/group.svg');
 	background-position: center;
+}
+
+.group.current-group {
+	background-image: url('../../assets/img/current-group.svg');
 }

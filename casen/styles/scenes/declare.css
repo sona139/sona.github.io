@@ -3,6 +3,22 @@
 	padding: 100px 135px 0 135px;
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.87) 0%, rgba(0, 0, 0, 0.87) 100%), url('../../assets/img/ava-bg.png'), lightgray 0% 0% / 182.00000524520874px 182.00000524520874px repeat;
 	background-position: center;
+	overflow: hidden;
+}
+
+.declare-group {
+	margin: 0 -100%;
+	transform: translateX(calc(100%/3));
+	transition-duration: 0.5s;
+}
+
+.declare-item {
+	transition-duration: 0.5s;
+}
+
+.declare-item.hide {
+	display: flex;
+	opacity: 0;
 }
 
 .declare-content {
@@ -35,6 +51,26 @@
 	margin: 20px 0 69px;
 }
 
+.declare-prev-btn, 
+.declare-next-btn {
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.declare-prev-btn {
+	background-image: url('../../assets/img/prev-btn.svg');
+	left: 135px;
+}
+
+.declare-next-btn {
+	background-image: url('../../assets/img/next-btn.svg');
+	right: 135px;
+}
+
 @media (max-width: 1200px) {
 	#declare {
 		padding: 50px 15px 0 15px;
@@ -56,5 +92,10 @@
 
 	.declare-name {
 		margin-bottom: 60px;
+	}
+
+	.declare-prev-btn,
+	.declare-next-btn {
+		display: none;
 	}
 }
