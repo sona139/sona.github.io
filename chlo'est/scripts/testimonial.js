@@ -1,19 +1,33 @@
-const ARAVAR_URL = "./assets/image/";
-const AVATAR_FILES = ["ava1.png", "ava2.png", "ava3.png"];
+const prevBtn = document.querySelector(".testimonial-prev-btn");
+const nextBtn = document.querySelector(".testimonial-next-btn");
+const testimonialGroup = document.querySelector(".testimonial-group");
+const testimonialItems = document.querySelectorAll(".testimonial-item");
+console.log(prevBtn, nextBtn);
 
-const testimonialPrev = document.querySelector(".testimonial-prev-btn");
-const testimonialNext = document.querySelector(".testimonial-next-btn");
+let currentIndex = 0;
 
-const avatarImg = document.querySelector(".testimonial-avatar-img > img");
-
-let currentAvatarId = 0;
-
-testimonialPrev?.addEventListener("click", () => {
-	currentAvatarId = (currentAvatarId + 2) % 3;
-	avatarImg.src = ARAVAR_URL + AVATAR_FILES[currentAvatarId];
+prevBtn.addEventListener("click", () => {
+	testimonialItems[currentIndex].classList.add("hide");
+	currentIndex -= 1;
+	testimonialItems[currentIndex].classList.remove("hide");
+	testimonialGroup.style.transform = `translateX(calc(${
+		1 - currentIndex
+	}*100%/3))`;
+	if (currentIndex === 0) prevBtn.classList.add("hide");
+	else prevBtn.classList.remove("hide");
+	if (currentIndex === 2) nextBtn.classList.add("hide");
+	else nextBtn.classList.remove("hide");
 });
 
-testimonialNext?.addEventListener("click", () => {
-	currentAvatarId = (currentAvatarId + 1) % 3;
-	avatarImg.src = ARAVAR_URL + AVATAR_FILES[currentAvatarId];
+nextBtn.addEventListener("click", () => {
+	testimonialItems[currentIndex].classList.add("hide");
+	currentIndex += 1;
+	testimonialItems[currentIndex].classList.remove("hide");
+	testimonialGroup.style.transform = `translateX(calc((${
+		1 - currentIndex
+	})*100%/3))`;
+	if (currentIndex === 2) nextBtn.classList.add("hide");
+	else nextBtn.classList.remove("hide");
+	if (currentIndex === 0) prevBtn.classList.add("hide");
+	else prevBtn.classList.remove("hide");
 });

@@ -1,4 +1,4 @@
-.testimonia-container {
+.testimonial-container {
 	background-color: var(--color-background-tertiary);
 }
 
@@ -17,6 +17,7 @@
 	background-size: cover;
 	background-position: center;
 	cursor: pointer;
+	z-index: 100;
 }
 
 .testimonial-prev-btn {
@@ -32,6 +33,22 @@
 .testimonial-title {
 	color: #FFE0B4;
 	margin: 25px 0 60px;
+}
+
+.testimonial-group {
+	margin: 0 -100%;
+	transform: translateX(calc(100%/3));
+	transition-duration: 0.5s;
+	z-index: 1;
+}
+
+.testimonial-item {
+	transition-duration: 0.5s;
+}
+
+.testimonial-item.hide {
+	opacity: 0;
+	display: flex;
 }
 
 .testimonial-paragraph {
