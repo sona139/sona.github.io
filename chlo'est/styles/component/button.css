@@ -1,11 +1,9 @@
 @import url('../utils/colors.css');
 
 button {
-	height: 58px;
-	width: 236px;
 	font-size: 15px;
-	font-style: normal;
 	letter-spacing: 1.5px;
+	line-height: 18px;
 	font-weight: 400;
 	font-family: 'Roboto';
 }
@@ -22,7 +20,7 @@ button {
 }
 
 .btn-secondary {
+	color: #5B3909;
 	border: 1px solid #5B3909;
 	background: var(--color-light);
-	color: var(--color-primary);
 }

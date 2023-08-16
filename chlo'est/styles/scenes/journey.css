@@ -1,6 +1,10 @@
-#journey {
-	padding: 90px 135px;
+.journey-container {
 	background-color: var(--color-background-primary);
+}
+
+#journey {
+	padding: 90px 0;
+	width: 1170px;
 	gap: 94px;
 }
 
@@ -14,11 +18,9 @@
 	width: 570px;
 	height: 450px;
 	background-color: var(--color-background-secondary);
-	position: relative;
 }
 
 .journey-image {
-	position: absolute;
 	left: 50%;
 	bottom: 95px;
 	transform: translateX(-50%) rotate(180deg);
@@ -29,17 +31,20 @@
 }
 
 .journey-about {
-	position: absolute;
 	left: 86.29px;
 	bottom: 49.44px;
 }
 
+.journey-leave {
+	width: 86.16px;
+	height: 35.51px;
+	transform: rotate(-115deg) translateX(-50%);
+	left: 0;
+	bottom: 200.17px;
+}
+
 .journey-title {
 	color: var(--color-heading);
-	font-size: 60px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 80px;
 	margin: 25px 0 20px;
 }
 
@@ -62,58 +67,19 @@
 	margin: 20px 0 40px;
 }
 
-.effects {
-	margin: 0 -135px;
-}
-
-.effect-item {
-	flex: 1;
-	background-size: cover;
-	background-position: bottom;
-	height: 480px;
-	width: 480px;
-	z-index: 1;
-	border: 2px solid #fff1e1;
-}
-
-.effect-item:nth-child(1) {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../../assets/image/effect1.png'), lightgray no-repeat;
-	background-position: bottom;
-	background-size: cover;
-}
-
-.effect-item:nth-child(2) {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../../assets/image/effect2.png'), lightgray no-repeat;
-	background-position: bottom;
-	background-size: cover;
-}
-
-.effect-item:nth-child(3) {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../../assets/image/effect3.png'), lightgray no-repeat;
-	background-position: bottom;
-	background-size: cover;
-}
-
-.effect-name {
-	margin-top: 187px;
-	margin-bottom: 10px;
-	color: var(--color-light);
-	font-size: 40px;
-	font-style: normal;
+.journey-btn {
+	padding: 20px 55.04px 20px 56px;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	line-height: 18px;
 	font-weight: 400;
-	line-height: normal;
-	height: 55px;
-}
-
-.effect-add {
-	width: 42px;
-	height: 42px;
-	background: url('../../assets/icon/add-icon.svg');
+	font-family: 'Roboto';
 }
 
 @media (max-width: 1200px) {
 	#journey {
-		padding: 40px 15px;
+		width: 345px;
+		padding: 40px 0;
 		gap: 40px;
 	}
 
@@ -141,6 +107,12 @@
 		height: 59.2px;
 	}
 
+	.journey-leave {
+		width: 52.19px;
+		height: 21.49px;
+		bottom: 134.23px;
+	}
+
 	.journey-title {
 		font-size: 36px;
 		line-height: 55px;
@@ -148,20 +120,5 @@
 
 	.journey-paragraph {
 		margin-top: 10px;
-	}
-
-	.effects {
-		flex-direction: column;
-	}
-
-	.effect-item {
-		flex: unset;
-		height: 100vw;
-		width: 100vw;
-	}
-
-	.effect-name {
-		margin-top: 134px;
-		font-size: 40px;
 	}
 }

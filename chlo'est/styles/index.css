@@ -14,6 +14,7 @@
 @import url('./scenes/faq.css');
 @import url('./scenes/testimonial.css');
 @import url('./scenes/subcribe.css');
+@import url('./scenes/effect.css');
 
 /* Reset CSS */
 * {
@@ -45,4 +46,8 @@ img {
 ul {
   list-style-type: none;
   overflow: hidden;
+}
+
+a {
+	text-decoration: none;
 }

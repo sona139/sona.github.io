@@ -9,6 +9,20 @@
 
 /* Roboto */
 @font-face {
+	font-family: "Roboto";
+	src: url('../../assets/fonts/Roboto/Roboto-Thin.ttf') format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url('../../assets/fonts/Roboto/Roboto-Light.ttf') format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
   font-family: "Roboto";
   src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: 400;

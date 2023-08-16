@@ -1,7 +1,10 @@
-#testimonial {
+.testimonia-container {
 	background-color: var(--color-background-tertiary);
+}
+
+#testimonial {
+	width: 1170px;
 	padding: 90px 0;
-	position: relative;
 }
 
 .testimonial-prev-btn, .testimonial-next-btn {
@@ -17,20 +20,17 @@
 }
 
 .testimonial-prev-btn {
-	left: 135px;
+	left: 0;
 	background-image: url('../../assets/icon/chev-left.svg');
 }
 
 .testimonial-next-btn {
-	right: 135px;
+	right: 0;
 	background-image: url('../../assets/icon/chev-right.svg');
 }
 
 .testimonial-title {
-	color: var(--color-background-primary, #FFE0B4);
-	font-size: 60px;
-	font-weight: 400;
-	line-height: 80px;
+	color: #FFE0B4;
 	margin: 25px 0 60px;
 }
 
@@ -73,6 +73,7 @@
 
 @media (max-width: 1200px) {
 	#testimonial {
+		width: 345px;
 		padding: 40px 0;
 	}
 
@@ -89,7 +90,7 @@
 	.testimonial-paragraph {
 		font-size: 26px;
 		line-height: 36px;
-		margin: 0 15px 74px;
+		margin-bottom: 74px;
 	}
 
 	.testimonial-avatar-bg {

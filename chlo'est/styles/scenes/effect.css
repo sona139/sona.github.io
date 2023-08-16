@@ -1,0 +1,59 @@
+.effect-item {
+	background-size: cover;
+	background-position: bottom;
+	width: calc(100vw/3);
+	height: calc(100vw/3);
+	z-index: 1;
+	border: 2px solid #fff1e1;
+}
+
+.effect-item:nth-child(1) {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../../assets/image/effect1.png'), lightgray -20.392px -245.885px / 105.163% 157.683% no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.effect-item:nth-child(2) {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../../assets/image/effect2.png'), lightgray no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.effect-item:nth-child(3) {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../../assets/image/effect3.png'), lightgray no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.effect-name {
+	margin-bottom: 10px;
+	color: var(--color-light);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	height: 55px;
+}
+
+.effect-add {
+	width: 42px;
+	height: 42px;
+	background: url('../../assets/icon/add-icon.svg');
+}
+
+@media (max-width: 1200px) {
+	.effects {
+		flex-direction: column;
+	}
+
+	.effect-item {
+		flex: unset;
+		height: 100vw;
+		width: 100vw;
+	}
+
+	.effect-name {
+		margin-top: 134px;
+		font-size: 40px;
+	}
+}
