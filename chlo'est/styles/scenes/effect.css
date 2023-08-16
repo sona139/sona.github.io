@@ -33,12 +33,23 @@
 	font-weight: 400;
 	line-height: normal;
 	height: 55px;
+	z-index: 101;
 }
 
 .effect-add {
 	width: 42px;
 	height: 42px;
+	z-index: 101;
 	background: url('../../assets/icon/add-icon.svg');
+}
+
+.effect-overlay {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 100;
 }
 
 @media (max-width: 1200px) {

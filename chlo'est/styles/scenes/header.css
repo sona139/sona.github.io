@@ -1,12 +1,11 @@
 .header-container {
 	background: url('../../assets/image/header.png'), lightgray;
-	background-size: 140% auto;
-	background-position: bottom;
-	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #header {
-	padding: 185px 394px 40px;
+	padding: 185px 0 40px;
 }
 
 .header-title {

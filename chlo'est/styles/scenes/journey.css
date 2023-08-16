@@ -23,7 +23,7 @@
 .journey-image {
 	left: 50%;
 	bottom: 95px;
-	transform: translateX(-50%) rotate(180deg);
+	transform: translateX(-50%);
 	width: 430px;
 	height: 559px;
 	object-fit: cover;

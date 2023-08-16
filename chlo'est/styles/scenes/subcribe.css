@@ -1,7 +1,7 @@
 .subcribe-container {
-	background: url('../../assets/image/collection2.png'), lightgray -35447794268.093px -101474054583.156px / 11097971934.84% 22428756358.179% no-repeat;
-	background-size: 150%;
-	background-position: -350px -350px;
+	background: url('../../assets/image/collection2.png');
+	background-size: cover;
+	background-position: center;
 }
 
 #subcribe {
