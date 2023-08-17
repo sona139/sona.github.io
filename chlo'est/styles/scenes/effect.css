@@ -1,7 +1,11 @@
+.effects {
+	width: 100%;
+}
+
 .effect-item {
+	flex: 1 0;
 	background-size: cover;
 	background-position: bottom;
-	width: calc(100vw/3);
 	height: calc(100vw/3);
 	z-index: 1;
 	border: 2px solid #fff1e1;
