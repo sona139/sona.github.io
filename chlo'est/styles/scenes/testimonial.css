@@ -36,8 +36,6 @@
 }
 
 .testimonial-group {
-	margin: 0 -100%;
-	transform: translateX(calc(100%/3));
 	transition-duration: 0.5s;
 	z-index: 1;
 }
@@ -48,7 +46,6 @@
 
 .testimonial-item.hide {
 	opacity: 0;
-	display: flex;
 }
 
 .testimonial-paragraph {
