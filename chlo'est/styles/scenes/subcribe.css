@@ -1,10 +1,7 @@
-.subcribe-container {
+#subcribe {
 	background: url('../../assets/image/collection2.png');
 	background-size: cover;
 	background-position: center;
-}
-
-#subcribe {
 	padding: 90px 0 89px;
 }
 
@@ -55,12 +52,6 @@
 }
 
 @media (max-width: 1200px) {
-	.subcribe-container {
-		background-size: 300%;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-
 	#subcribe {
 		padding: 40px 0px;
 	}

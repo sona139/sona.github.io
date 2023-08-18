@@ -1,7 +1,8 @@
 .header-container {
 	background: url('../../assets/image/header.png'), lightgray;
-	background-size: cover;
 	background-position: center;
+	background-size: cover;
+	height: 759px;
 }
 
 #header {
@@ -30,9 +31,8 @@
 
 @media (max-width:1200px) {
 	.header-container {
+		background-image: url('../../assets/image/header-mb.png');
 		height: 498px;
-		background-size: 260% auto;
-		background-position: -250px -150px;
 	}
 
 	#header {

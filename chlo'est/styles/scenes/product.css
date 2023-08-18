@@ -1,7 +1,3 @@
-.producs-container {
-	background-color: var(--color-background-primary);
-}
-
 #products {
 	width: 1170px;
 	padding: 90px 0;
@@ -15,7 +11,6 @@
 
 .products-list {
 	gap: 10px;
-	margin-top: 90px
 }
 
 .product-item {
@@ -46,8 +41,7 @@
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
-	height: 33px;
+	line-height: 33px;
 }
 
 .product-price {
@@ -63,11 +57,11 @@
 .product-btn {
 	line-height: 16px;
 	padding: 16px 46px;
+	margin-top: 20px;
 }
 
 .product-rate {
 	gap: 5px;
-	margin-bottom: 20px;
 }
 
 .review-count {
@@ -76,11 +70,12 @@
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
-	height: 16px;
+	line-height: 20px;
+	margin-left: 7px;
 }
 
 .product-limited-wrapper {
+	height: 783px;
 	width: 100%;
 }
 
@@ -136,10 +131,12 @@
 }
 
 .product-limited-name {
+	display: block;
 	font-size: 24px;
 	font-weight: 400;
 	color: var(--color-heading);
 	line-height: 33px;
+	margin-bottom: 5px;
 }
 
 .product-limited-price {
@@ -153,7 +150,7 @@
 .product-limited-btn {
 	padding: 16px 46px;
 	font-size: 15px;
-	line-height: 18px;
+	line-height: 16px;
 }
 
 /* Countdown */
@@ -194,8 +191,8 @@
 	}
 
 	.products-list {
-		gap: 18px;
-		margin-top: 40px;
+		column-gap: 18px;
+		row-gap: 15px;
 	}
 
 	.product-item {
@@ -204,6 +201,7 @@
 	}
 
 	.product-img {
+		height: 123px;
 		padding: 25px 51px 5px;
 	}
 
@@ -213,12 +211,18 @@
 
 	.product-name {
 		font-size: 14px;
+		display: block;
+		line-height: 19px;
 	}
 
 	.product-price {
 		margin: 10px 0;
 		font-size: 14px;
-		line-height: normal;
+		line-height: 16px;
+	}
+	
+	.product-review {
+		margin: 0 -1px 0 0;
 	}
 
 	.product-rate {
@@ -232,10 +236,13 @@
 
 	.review-count {
 		font-size: 10px;
+		line-height: 12px;
+		margin-left: 5px;
 	}
 
 	.product-btn {
 		width: 100%;
+		padding: 16px 16px;
 	}
 
 	.product-bg {
@@ -245,7 +252,11 @@
 
 	.product-overlay {
 		width: 100vw;
-		padding: 40px 16px 28px 14px;
+		padding: 28px 16px 40px 14px;
+	}
+
+	.product-limited-wrapper {
+		height: unset;
 	}
 
 	.product-limited-img {
@@ -263,5 +274,6 @@
 
 	.product-limited-btn {
 		padding: 16px 69px;
+		line-height: 16px;
 	}
 }

@@ -24,6 +24,18 @@
 	font-family: 'DM Serif Display', 'Roboto';
 }
 
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	background-color: #FFF1E1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+}
+
 button, input {
 	background-color: var(--color-light);
 	border: none;

@@ -1,8 +1,5 @@
-.journey-container {
-	background-color: var(--color-background-primary);
-}
-
 #journey {
+	margin: 0 auto;
 	padding: 90px 0;
 	width: 1170px;
 	gap: 94px;
@@ -68,10 +65,12 @@
 }
 
 .journey-btn {
+	display: block;
+	width: fit-content;
 	padding: 20px 55.04px 20px 56px;
 	font-size: 15px;
 	letter-spacing: 1.5px;
-	line-height: 18px;
+	line-height: 16px;
 	font-weight: 400;
 	font-family: 'Roboto';
 }
@@ -79,8 +78,8 @@
 @media (max-width: 1200px) {
 	#journey {
 		width: 345px;
-		padding: 40px 0;
-		gap: 40px;
+		padding: 0 0 40px;
+		gap: 40.16px;
 	}
 
 	.journey-inner:nth-child(2) {
@@ -89,14 +88,13 @@
 
 	.journey-background {
 		width: 345px;
-    height: 272.37px;
-    margin-top: -214.87px;
+    height: 272.38px;
 		margin-top: 163.47px;
 	}
 
 	.journey-image {
-		width: 260.263px;
-		height: 338.342px;
+		width: 260.26px;
+		height: 338.34px;
 		bottom: 57.5px;
 	}
 
