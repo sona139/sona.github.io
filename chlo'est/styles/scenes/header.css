@@ -2,11 +2,10 @@
 	background: url('../../assets/image/header.png'), lightgray;
 	background-position: center;
 	background-size: cover;
-	height: 759px;
 }
 
 #header {
-	padding: 185px 0 40px;
+	padding: 184px 0 40px;
 }
 
 .header-title {
@@ -14,6 +13,8 @@
 	max-width: 652px;
 	margin-top: 39.65px;
 	margin-bottom: 30px;
+	line-height: 100px;
+	font-size: 80px;
 }
 
 .header-arrow {
@@ -32,17 +33,16 @@
 @media (max-width:1200px) {
 	.header-container {
 		background-image: url('../../assets/image/header-mb.png');
-		height: 498px;
 	}
 
 	#header {
-		padding: 110px 24px 40px 25px;
+		padding: 109px 24px 40px 25px;
 	}
 
 	.header-title {
 		font-size: 40px;
 		max-width: 326px;
-		line-height: normal;
+		line-height: 55px;
 	}
 	
 	.header-arrow {

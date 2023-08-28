@@ -1,5 +1,6 @@
 .testimonial-container {
 	background-color: var(--color-background-tertiary);
+	overflow-x: hidden;
 }
 
 #testimonial {

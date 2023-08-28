@@ -3,11 +3,11 @@
 	padding: 90px 0;
 	width: 1170px;
 	gap: 94px;
+	align-items: center;
 }
 
 .journey-inner:nth-child(2) {
 	max-width: 500px;
-	margin-top: 95px;
 }
 
 .journey-background {
@@ -33,11 +33,11 @@
 }
 
 .journey-leave {
-	width: 86.16px;
-	height: 35.51px;
-	transform: rotate(-115deg) translateX(-50%);
-	left: 0;
-	bottom: 200.17px;
+	height: 124px;
+	width: 78px;
+	object-fit: cover;
+	bottom: 119.17px;
+	left: 26px;
 }
 
 .journey-title {
@@ -82,19 +82,15 @@
 		gap: 40.16px;
 	}
 
-	.journey-inner:nth-child(2) {
-		margin-top: 0;
-	}
-
 	.journey-background {
 		width: 345px;
-    height: 272.38px;
-		margin-top: 163.47px;
+		height: 272.368px;
+		margin-top: 163.89px;
 	}
 
 	.journey-image {
 		width: 260.26px;
-		height: 338.34px;
+		height: 338.342px;
 		bottom: 57.5px;
 	}
 
@@ -106,9 +102,10 @@
 	}
 
 	.journey-leave {
-		width: 52.19px;
-		height: 21.49px;
-		bottom: 134.23px;
+		height: 92px;
+		width: 56px;
+		left: 15.55px;
+		bottom: 62.23px;
 	}
 
 	.journey-title {

@@ -78,6 +78,11 @@
 	width: 100%;
 }
 
+.p-span {
+	font-family: 'Roboto';
+	white-space: nowrap;
+}
+
 @media (max-width: 1200px) {
 	.title {
 		font-size: 36px;
