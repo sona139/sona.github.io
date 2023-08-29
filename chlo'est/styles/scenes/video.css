@@ -2,13 +2,17 @@
 	overflow: hidden;
 	position: relative;
 	width: 100%;
+	height: 570px;
 }
 
-#video::before {
+.video-background {
 	content: '';
 	display: block;
-	position: relative;
-	height: 570px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	background-image: url('../../assets/image/video.png');
 	background-size: cover;
 	background-position: center;
@@ -17,8 +21,9 @@
 
 .video {
 	width: 100%;
+	height: 100%;
 	display: block;
-	overflow: hidden;
+	object-fit: cover;
 }
 
 .video-btn {
@@ -34,13 +39,8 @@
 
 
 @media (max-width: 1200px) {
-	#video::before {
+	#video {
 		height: 339px;
-	}
-
-	.video {
-		width: 100%;
-		height: unset;
 	}
 
 	.video-btn {
@@ -52,7 +52,7 @@
 }
 
 @media (max-width: 600px) {
-	#video::before {
+	.video-background {
 		background-image: url('../../assets/image/video-small.png');
 	}
 }

@@ -2,8 +2,8 @@
 	margin: 0 auto;
 	padding: 90px 0;
 	width: 1170px;
-	gap: 94px;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .journey-inner:nth-child(2) {
