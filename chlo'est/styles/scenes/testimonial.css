@@ -49,7 +49,7 @@
 
 .testimonial-item.hide {
 	opacity: 0;
-	display: flex;
+	display: flex !important;
 }
 
 .testimonial-paragraph {
