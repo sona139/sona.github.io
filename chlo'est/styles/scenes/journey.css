@@ -77,9 +77,14 @@
 
 @media (max-width: 1200px) {
 	#journey {
-		width: 345px;
-		padding: 0 0 40px;
+		width: 100%;
+		padding: 0 15px 40px;
 		gap: 40.16px;
+		justify-content: center;
+	}
+
+	.journey-inner:nth-child(2) {
+		max-width: unset;
 	}
 
 	.journey-background {
@@ -115,5 +120,11 @@
 
 	.journey-paragraph {
 		margin-top: 10px;
+	}
+}
+
+@media (max-width: 374px) {
+	.journey-background {
+		width: 100vw;
 	}
 }
