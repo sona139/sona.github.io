@@ -10,10 +10,12 @@
 	padding-left: 67px;
 	background-color: var(--color-background-primary);
 	width: 767px;
-	height: 363px;
 }
 
 .subcribe-title {
+	font-size: 40px;
+	line-height: 55px;
+	font-weight: 400;
 	color: var(--color-heading);
 }
 
@@ -23,7 +25,7 @@
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 45px;
-	margin: 5px 0 40px;
+	margin: 10px 0 40px;
 }
 
 .subcribe-input {
@@ -56,20 +58,15 @@
 		padding: 40px 0px;
 	}
 
-	.subcribe {
-		width: 345px;
-		height: 377px;
-		padding: 30px 20px;
-	}
-
 	.subcribe-title {
 		font-size: 36px;
-		line-height: normal;
+		line-height: 49px;
 	}
 
 	.subcribe-paragraph  {
 		font-size: 20px;
 		line-height: 32px;
+		margin: 20px 0 30px;
 	}
 
 	.subcribe-input {
@@ -78,5 +75,25 @@
 
 	.subcribe-button {
 		padding: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+	.subcribe {
+		width: calc(100vw - 120px);
+		padding: 30px 20px;
+	}
+}
+
+@media (max-width: 576px) {
+	.subcribe {
+		width: 345px;
+		padding: 30px 20px;
+	}
+}
+
+@media (max-width: 374px) {
+	.subcribe {
+		width: 100%;
 	}
 }

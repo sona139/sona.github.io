@@ -5,9 +5,7 @@
 }
 
 .video-background {
-	content: '';
-	display: block;
-	width: 100%;
+	min-width: 100%;
 	height: 100%;
 	background-image: url('../../assets/image/video.png');
 	background-position: center;

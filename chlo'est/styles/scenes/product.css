@@ -102,7 +102,7 @@
 	left: 10px;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 710px;
+	width: 100%;
 	height: 219px;
 	background-image: url('../../assets/icon/limted-edition.svg');
 	background-size: cover;
@@ -179,9 +179,36 @@
 	height: 16px;
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1170px) {
 	#products {
-		width: 346px;
+		width: unset;
+	}
+	
+	.product-limited-wrapper {
+		height: unset;
+	}
+
+	.product-limited-img {
+		width: 345px;
+		padding: 37px 13px 16px 52px;
+	}
+
+	.product-limited-name {
+		font-size: 24px;
+	}
+
+	.product-limited-price {
+		font-size: 20px;
+	}
+
+	.product-limited-btn {
+		padding: 16px 69px;
+		line-height: 16px;
+	}
+}
+
+@media (max-width: 678px) {
+	#products {
 		padding: 40px 0;
 	}
 
@@ -255,26 +282,10 @@
 		width: 100vw;
 		padding: 28px 16px 40px 14px;
 	}
+}
 
-	.product-limited-wrapper {
-		height: unset;
-	}
-
+@media (max-width: 374px) {
 	.product-limited-img {
-		width: 345px;
-		padding: 37px 13px 16px 52px;
-	}
-
-	.product-limited-name {
-		font-size: 24px;
-	}
-
-	.product-limited-price {
-		font-size: 20px;
-	}
-
-	.product-limited-btn {
-		padding: 16px 69px;
-		line-height: 16px;
+		width: 100%;
 	}
 }
