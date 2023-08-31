@@ -48,7 +48,7 @@
 	background-size: cover;
 	cursor: pointer;
 	background-image: url('../../assets/icon/chev-top.svg');
-	transition-duration: 0.5s;
+	transition-duration: 0.3s;
 }
 
 :not(.faq-active) > .faq-q > .faq-chev {
@@ -70,7 +70,7 @@
 	font-weight: 400;
 	line-height: 44px;
 	overflow: hidden;
-  transition: max-height 0.5s ease, padding 0.5s ease;
+  transition: max-height 0.3s ease, padding 0.3s ease;
   max-height: 0;
 }
 
