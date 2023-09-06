@@ -52,7 +52,7 @@
 }
 
 :not(.faq-active) > .faq-q > .faq-chev {
-	transform: rotate(180deg);
+	transform: rotate(180deg); 
 }
 
 .faq-active > .faq-a {
