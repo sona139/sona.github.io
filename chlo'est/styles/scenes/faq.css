@@ -100,6 +100,10 @@
 		height: 277px;
 	}
 
+	.faq-chev {
+		right: 16px;
+	}
+
 	.faq-question {
 		width: 100%;
 	}
