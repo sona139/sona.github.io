@@ -95,7 +95,8 @@
 	}
 
 	.testimonial-prev-btn, .testimonial-next-btn {
-		display: none;
+		opacity: 0;
+		pointer-events: none;
 	}
 
 	.testimonial-title {
