@@ -94,6 +94,11 @@
 
 @media (max-width: 374px) {
 	.subcribe {
-		width: 100%;
+		width: 90%;
+	}
+
+	.subcribe-input {
+		min-width: unset;
+		width: 50%;
 	}
 }
