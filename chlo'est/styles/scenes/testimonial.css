@@ -92,11 +92,7 @@
 @media (max-width: 1200px) {
 	#testimonial {
 		padding: 40px 0;
-	}
-
-	.testimonial-prev-btn, .testimonial-next-btn {
-		opacity: 0;
-		pointer-events: none;
+		width: 100%;
 	}
 
 	.testimonial-title {
@@ -116,5 +112,17 @@
 		width: 178px;
 		height: 112px;
 		bottom: 73px;
+	}
+
+	.testimonial-prev-btn {
+		opacity: 0.5;
+		left: 15px;
+		top: 65%;
+	}
+
+	.testimonial-next-btn {
+		top: 65%;
+		opacity: 0.5;
+		right: 15px;
 	}
 }

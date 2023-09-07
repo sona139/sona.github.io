@@ -34,14 +34,6 @@ const slideRight = () => {
 	else prevBtn.classList.remove("hide");
 };
 
-testimonial.addEventListener("click", (e) => {
-	if (document.body.clientWidth > 1200) return;
-	if (e.clientX >= document.body.clientWidth / 2 && currentIndex < 2)
-		slideRight();
-	else if (e.clientX < document.body.clientWidth / 2 && currentIndex > 0)
-		slideLeft();
-});
-
 prevBtn.addEventListener("click", () => {
 	slideLeft();
 });
